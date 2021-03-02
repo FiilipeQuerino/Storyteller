@@ -1,2 +1,2 @@
 # StorytellerRPG
- Repositorio pro jogo
+ Repositorio...
