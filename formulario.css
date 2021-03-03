@@ -20,7 +20,7 @@ fieldset{
 }
 
 body{
-    background-color: crimson;
+    background-color:ghostwhite;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     color: darkgray;
@@ -61,7 +61,7 @@ fieldset.group .campo{
 
 .botao{
     font-size: 1.2em;
-    background: #59429d;
+    background: slategrey;
     border: 0;
     margin-bottom: 1em;
     color: black;
@@ -77,6 +77,11 @@ fieldset.group .campo{
 
 .botao:hover{
     background: #ccbbff;
-   box-shadow: inset 2px 2px 2px rgba(0,0,0,0,.2);
-   text-shadow: none; 
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0,.2);
+    text-shadow: none; 
+}
+
+#redes a{
+    text-decoration: none;
+    color: black;
 }

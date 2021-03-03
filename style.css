@@ -86,3 +86,8 @@
 #rd_redes:checked ~ .sections{
     margin-top: -300vh;
 }
+
+#redes a{
+    text-decoration: black;
+    color: black;
+}
