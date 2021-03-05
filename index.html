@@ -16,7 +16,7 @@
        <label for="rd_mapa">Mapa</label>         
        <label for="rd_personagens">Personagens</label>         
        <label for="rd_redes">Contato</label> 
-       <label for="rd_help"><a href="ideia.html">Ajude-nos</a></label>                
+       <label for="rd_help">Ajude-nos</a></label>                
    </nav> 
 
    <div class="scroll">
@@ -57,7 +57,32 @@
             </ul>
         </section>
 
-        <section class="bloco" id="help"></section>
+        <section class="bloco" id="help">
+      
+            <form action="">
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="nome"><strong>Nome:</strong></label>
+                        <input type="text" nome="nome" id="nome" required>
+                    </div>      
+                </fieldset>
+        
+                <div class="campo">
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" nome="email" id="email" required> 
+                </div>
+        
+                <div class="campo">
+                    <br>
+                    <label><strong>Qual a sua ideia:</strong></label>
+                    <textarea row="6" style="width: 26em"; id="ideia"></textarea> 
+                </div>
+        
+                <button class="botao" type="submit">Enviar</button>
+        
+            </form>
+          
+        </section>
         
     </section>     
     </div>
