@@ -52,6 +52,11 @@
     background-color: aliceblue; 
 }
 
+#home p{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
 #mapa{
     background-color: #A0522D; 
 }
@@ -136,8 +141,7 @@ fieldset.group .campo{
     color: black;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0,.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0,.5);
-    position: absolute;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0,.5);   
     top: 90%;
     left: 50%;
     margin-right: -50%;
